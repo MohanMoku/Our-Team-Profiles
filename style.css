@@ -1,0 +1,139 @@
+html,
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: unset;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    background: linear-gradient(to right, #fc466b, #3f5efb);
+    color: black;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-size: 2.7rem;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+    padding: 20px;
+}
+
+.card {
+    height: 500px;
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.card.blue {
+    background-color: #99ffbb;
+    border: 3px solid #000;
+}
+
+.card.green {
+    background-color: #9999ff;
+    border: 3px solid #000;
+}
+
+.card.cyan {
+    background-color: #7dd3fc;
+    border: 3px solid #000;
+}
+
+.card.pink {
+    background-color: #ff9999;
+    border: 3px solid #000;
+}
+
+.image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    overflow: hidden;
+    border: 3px solid #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image:hover{
+    transform: scale(1.1);
+}
+
+.btn {
+    width: 190px;
+    height: 40px;
+    display: block;
+    margin: 5px auto;
+    padding: 10px 15px;
+    border: solid 0.5px #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn.resume {
+    background-color: #f64949;
+    color: white;
+}
+
+.btn.resume:hover {
+    background-color: #72e086;
+    width: 220px;
+    border-radius: 20px;
+    color: white;
+}
+
+.btn.biodata {
+    background-color: #34e0d2;
+    color: white;
+}
+.btn.biodata:hover {
+    background-color: #72e086;
+    width: 220px;
+    border-radius: 20px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
