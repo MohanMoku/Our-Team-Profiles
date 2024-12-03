@@ -37,8 +37,8 @@ body {
 }
 
 .info{
-    overflow: hidden; /* Prevent overflow */
-    word-wrap: break-word; /* Break long words */
+    overflow: hidden;
+    word-wrap: break-word;
     text-overflow: ellipsis;
 }
 
