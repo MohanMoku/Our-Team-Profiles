@@ -36,6 +36,12 @@ body {
     border: 2px solid #4ecdc4;
 }
 
+.info{
+    overflow: hidden; /* Prevent overflow */
+    word-wrap: break-word; /* Break long words */
+    text-overflow: ellipsis;
+}
+
 .header .info h1 {
     font-size: 30px;
     color: #000000;
