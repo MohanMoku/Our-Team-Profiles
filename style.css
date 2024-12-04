@@ -13,6 +13,7 @@ body {
 }
 
 header {
+    font-family: Equalizer, Equalizer;
     text-align: center;
     padding: 20px;
     color: black;
@@ -111,9 +112,7 @@ a {
 
 .btn.resume:hover {
     background-color: #72e086;
-    width: 220px;
-    border-radius: 20px;
-    color: white;
+    transform: scale(1.1);
 }
 
 .btn.biodata {
@@ -122,9 +121,7 @@ a {
 }
 .btn.biodata:hover {
     background-color: #72e086;
-    width: 220px;
-    border-radius: 20px;
-    color: white;
+    transform: scale(1.1);
 }
 
 footer {
