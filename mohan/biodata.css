@@ -36,7 +36,7 @@ body {
     border: 2px solid #4ecdc4;
 }
 
-.info{
+.info {
     overflow: hidden;
     word-wrap: break-word;
     text-overflow: ellipsis;
@@ -48,7 +48,8 @@ body {
     text-decoration: underline;
     margin-bottom: 10px;
 }
-.header .info{
+
+.header .info {
     margin-left: 50px;
 }
 
@@ -75,7 +76,7 @@ section h2 {
     font-size: 16px;
 }
 
-.education{
+.education {
     margin-top: 25px;
 }
 
@@ -89,9 +90,10 @@ section h2 {
     font-size: 16px;
 }
 
-.skills{
+.skills {
     margin-top: 25px;
 }
+
 .skills .skill-tags {
     display: flex;
     flex-wrap: wrap;
@@ -106,10 +108,14 @@ section h2 {
     font-size: 14px;
 }
 
-.hobbies{
+.skill-tags span:hover {
+    transform: scale(1.1);
+}
+
+.hobbies {
     margin-top: 25px;
 }
 
-.hobbies p{
+.hobbies p {
     font-size: 15px;
 }
